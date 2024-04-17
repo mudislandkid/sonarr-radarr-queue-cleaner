@@ -7,6 +7,6 @@ services:
       - SONARR_API_KEY=557093667e7a4caf881ff1d02d7bbcec
       - RADARR_URL=http://192.168.50.118:7878
       - RADARR_API_KEY=7f80f8e0ff9a4d0c9d604cf089395a7a
-      - API_TIMEOUT=600
+      - API_TIMEOUT=6000
       - DELETE_FILES=True  # Set to False if you do not want to delete files automatically
     restart: unless-stopped
